@@ -32,7 +32,7 @@
 		$('html, body').animate({ scrollTop: $('#mywork').offset().top + 1 }, 1000, 'linear');
 	});
 	$('.link4').click(function (){
-		$('html, body').animate({ scrollTop: $('#social').offset().top + 1 }, 1000, 'linear');
+		$('html, body').animate({ scrollTop: $('#contatti').offset().top + 1 }, 1000, 'linear');
 	});
 
 
