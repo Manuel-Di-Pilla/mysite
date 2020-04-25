@@ -106,3 +106,15 @@
 .more_info span{
     margin-right: 10px;
 }
+.site{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.site span{
+    margin-left: 10px;
+}
+.site i{
+    color: black;
+    font-size: 27px;
+}
