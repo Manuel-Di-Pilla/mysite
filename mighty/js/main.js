@@ -35,6 +35,16 @@
 		$('html, body').animate({ scrollTop: $('#contatti').offset().top + 1 }, 1000, 'linear');
 	});
 
+	$(document).on('click', '.burger', function () {
+		$('.burger-nav').removeClass('hidden');
+		$('.fa-bars').addClass('hidden');
+		$('.nav').addClass('hidden');
+	});
+	 $('.pippo').click(function () {
+		 $('.burger-nav').addClass('hidden');
+		 $('.fa-bars').removeClass('hidden');
+		 $('.nav').removeClass('hidden'); 
+	 });
 
 	(function highlightNav() {
 		var prev; //keep track of previous selected link
