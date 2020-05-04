@@ -45,6 +45,15 @@
 		 $('.fa-bars').removeClass('hidden');
 		 $('.nav').removeClass('hidden'); 
 	 });
+	 $(window).on('resize', function () {
+		 if ($(window).width() > 610 && !$('.burger-nav').hasClass('hidden')) {
+			 $('.burger-nav').addClass('hidden');
+			 $('.nav').removeClass('hidden');
+		 }
+		 if ($(window).width() < 610 && $('.fa-bars').hasClass('hidden')) {
+			 $('.fa-bars').removeClass('hidden');
+		 }
+	 });
 
 	(function highlightNav() {
 		var prev; //keep track of previous selected link
