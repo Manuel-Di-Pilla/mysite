@@ -26,7 +26,7 @@
 		$('html, body').animate({ scrollTop: $('#about').offset().top + 1 }, 500, 'linear');
 	});
 	$('.link2').click(function (){
-		$('html, body').animate({ scrollTop: $('#skills').offset().top + 30 }, 1000, 'linear');
+		$('html, body').animate({ scrollTop: $('#skills').offset().top + 5 }, 1000, 'linear');
 	});
 	$('.link3').click(function (){
 		$('html, body').animate({ scrollTop: $('#mywork').offset().top + 1 }, 1000, 'linear');
