@@ -234,7 +234,9 @@
         padding-left: 0;
         margin-left: 0;
     }
-    .social{
-        margin-bottom: 70px;
+}
+@media screen and (max-width: 991px){
+    .center{
+        padding: 60px 0;
     }
 }
