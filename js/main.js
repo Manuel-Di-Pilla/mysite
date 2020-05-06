@@ -18,13 +18,12 @@
 			$('.nav').removeClass('navblack');
 		}
 	});
-	// var effect = 'fade-left';
-	// var pippo = $('.social').attr('data-aos', effect);
-	//  $(window).on('resize', function (){
-	// 	 if ($(window).width() < 991){
-	// 		effect = '';
-	// 	 }
-	//  })
+	var effect = 'fade-left';
+	var pippo = $('.social').attr('data-aos', effect);
+	if ($(window).width() < 991){
+	   effect = '';
+	   pippo = $('.social').attr('data-aos', effect);
+	}
 
 	$('.link0').click(function (){
 		$('html, body').animate({ scrollTop: $('#home').offset().top}, 1000, 'linear');
