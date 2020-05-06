@@ -18,6 +18,13 @@
 			$('.nav').removeClass('navblack');
 		}
 	});
+	// var effect = 'fade-left';
+	// var pippo = $('.social').attr('data-aos', effect);
+	//  $(window).on('resize', function (){
+	// 	 if ($(window).width() < 991){
+	// 		effect = '';
+	// 	 }
+	//  })
 
 	$('.link0').click(function (){
 		$('html, body').animate({ scrollTop: $('#home').offset().top}, 1000, 'linear');
@@ -26,7 +33,7 @@
 		$('html, body').animate({ scrollTop: $('#about').offset().top + 1 }, 500, 'linear');
 	});
 	$('.link2').click(function (){
-		$('html, body').animate({ scrollTop: $('#skills').offset().top + 10 }, 1000, 'linear');
+		$('html, body').animate({ scrollTop: $('#skills').offset().top}, 1000, 'linear');
 	});
 	$('.link3').click(function (){
 		$('html, body').animate({ scrollTop: $('#mywork').offset().top + 1 }, 1000, 'linear');
